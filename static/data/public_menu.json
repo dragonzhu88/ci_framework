@@ -1,0 +1,337 @@
+[
+	{
+        "name": "帐号管理",
+		"en_name": "AccountManagement",
+        "icon": "entypo-basket",
+        "submenu": [
+			{
+                "name": "会员管理",
+				"en_name": "MemberManagementList",
+                "url": "member/index/1",
+				"auth": "READ,ADD,EDIT,DELETE"
+            },
+            {
+                "name": "代理",
+                "en_name": "AgentList",
+                "url": "member/agent",
+                "auth": "READ,ADD,EDIT,DELETE"
+            },
+            {
+                "name": "子帐号",
+				"en_name": "SubAccountList",
+                "url": "member/child",
+				"auth": "READ,ADD,EDIT,DELETE"
+            }
+		]
+	},
+    {
+        "name": "注单",
+		"en_name": "Lottery",
+        "icon": "entypo-basket",
+        "submenu": [
+            {
+                "name": "注单列表",
+				"en_name": "LotteryTicketList",
+                "url": "order/index",
+				"auth": "READ,EDIT,DELETE,EXPORT,PRINT"
+            }
+        ]
+    },
+    {
+        "name": "报表",
+		"en_name": "Report",
+        "icon": "entypo-basket",
+        "submenu": [
+            {
+                "name": "报表",
+				"en_name": "ReportList",
+                "url": "report/index",
+				"auth": "READ,ADD,EDIT,EXPORT"
+            },
+            {
+                "name": "报表查询",
+                "en_name": "ReportSearch",
+                "url": "report/report_search",
+                "auth": "READ,ADD,EDIT,EXPORT"
+            }
+        ]
+    },
+	{
+        "name": "赔率",
+		"en_name": "Odds",
+        "icon": "entypo-basket",
+        "submenu": [
+            {
+                "name": "赔率设置",
+				"en_name": "OddsSetting",
+                "url": "odds/index",
+				"auth": "READ,ADD,EDIT,DELETE"
+            }
+        ]
+    },
+	{
+        "name": "开奖",
+		"en_name": "LotteryDraw   ",
+        "icon": "entypo-basket",
+        "submenu": [
+            {
+                "name": "开奖列表",
+				"en_name": "LotteryDrawList",
+                "url": "openlottery/index",
+				"auth": "READ,EDIT,DELETE"
+            }
+        ]
+    },
+	{
+        "name": "层级",
+		"en_name": "Level",
+        "icon": "entypo-basket",
+        "submenu": [
+            {
+              "name": "层级管理",
+              "en_name": "LevelManagement",
+              "url": "level/index",
+              "auth": "READ,ADD,EDIT"
+            },
+			{
+                "name": "支付设定",
+				"en_name": "PaymentSetting",
+                "url": "payset/index",
+				"auth": "READ,ADD,EDIT,DELETE"
+            },
+            {
+                "name": "入款银行设定",
+				"en_name": "TopUpBankSetting",
+                "url": "payset/bankset",
+				"auth": "READ,ADD,EDIT,DELETE"
+            },
+            {
+                "name": "线上支付设定",
+				"en_name": "OnlinePaymentSetting",
+                "url": "payset/online_pay_setting",
+				"auth": "READ,ADD,EDIT,DELETE"
+            }
+		]
+	},
+	{
+		"name": "现金系统",
+		"en_name": "CashSystem",
+		"icon": "entypo-chart-pie",
+		"submenu": [
+			{
+                "name": "公司入款",
+				"en_name": "CompanyTopUp",
+                "url": "cash/index",
+				"auth": "READ,EXPORT"
+            },
+            {
+                "name": "线上入款",
+                "en_name": "OnlineTopUp",
+                "url": "cash/income",
+                "auth": "READ,ADD,EDIT,DELETE,EXPORT,PRINT"
+            },
+            {
+                "name": "优惠卡入款",
+                "en_name": "CouponTopUp",
+                "url": "cash/coupon",
+                "auth": "READ,ADD,EDIT,DELETE,EXPORT,PRINT"
+            },
+            {
+                "name": "出款管理",
+                "en_name": "WithdrawManagement",
+                "url": "cash/payment",
+                "auth": "READ,ADD,EDIT,DELETE,EXPORT,PRINT"
+            },
+            {
+                "name": "存取款",
+                "en_name": "TopUpAndWithDrawForm",
+                "url": "cash/deposit_withdraw_money",
+                "auth": "READ,ADD,EDIT,DELETE,EXPORT,PRINT"
+            },
+            {
+                "name": "出入汇总",
+                "en_name": "AmountSummary",
+                "url": "cash/amount_summary",
+                "auth": "READ,ADD,EDIT,DELETE,EXPORT,PRINT"
+            },
+            {
+                "name": "现金流水",
+                "en_name": "CashFlow",
+                "url": "cash/cash_system",
+                "auth": "READ,ADD,EDIT,DELETE,EXPORT,PRINT"
+            },
+            {
+                "name": "稽核日志",
+                "en_name": "AuditLog",
+                "url": "cash/audit_log",
+                "auth": "READ,ADD,EDIT,DELETE,EXPORT,PRINT"
+            },
+            {
+                "name": "稽核查询",
+                "en_name": "AuditLogSearch",
+                "url": "cash/audit_list",
+                "auth": "READ,ADD,EDIT,DELETE,EXPORT,PRINT"
+            },
+            {
+                "name": "会员额度统计",
+                "en_name": "MemberBalancetatistics",
+                "url": "cash/balance",
+                "auth": "READ,ADD,EDIT,DELETE,EXPORT,PRINT"
+            },
+            {
+                "name": "平台额度",
+                "en_name": "PlatformBalance",
+                "url": "stats/guest",
+                "auth": "READ,ADD,EDIT,DELETE,EXPORT,PRINT"
+            }
+		]
+	},
+	{
+		"name": "会员分析",
+		"en_name": "UserAnalyse",
+		"icon": "entypo-chart-pie",
+		"submenu": [
+			{
+                "name": "下注分析",
+				"en_name": "BettingAnalyse",
+                "url": "useranalyse/bet",
+				"auth": "READ,ADD,EDIT,DELETE,EXPORT,PRINT"
+            },
+            {
+                "name": "有效会员",
+                "en_name": "EffectiveUser",
+                "url": "useranalyse/effective_user",
+                "auth": "READ,ADD,EDIT,DELETE,EXPORT,PRINT"
+            },
+            {
+                "name": "会员查询",
+                "en_name": "MemberCheck",
+                "url": "useranalyse/member_check",
+                "auth": "READ,ADD,EDIT,DELETE,EXPORT,PRINT"
+            },
+            {
+                "name": "优惠分析",
+                "en_name": "PrivilegeAnalyse",
+                "url": "useranalyse/privilege_analyse",
+                "auth": "READ,ADD,EDIT,DELETE,EXPORT,PRINT"
+            },
+            {
+                "name": "出入款分析",
+                "en_name": "CashFlowAnalysis",
+                "url": "useranalyse/analysis_cash",
+                "auth": "READ,ADD,EDIT,DELETE,EXPORT,PRINT"
+            },
+            {
+                "name": "会员统计",
+                "en_name": "MemberStatistics",
+                "url": "useranalyse/member_statistics",
+                "auth": "READ,ADD,EDIT,DELETE,EXPORT,PRINT"
+            }
+		]
+	},
+	{
+		"name": "日志消息",
+		"en_name": "LogMessage",
+		"icon": "entypo-chart-pie",
+		"submenu": [
+          	{
+                "name": "会员登陆",
+          		"en_name": "MemberLogin",
+                "url": "stats/member_login",
+          		"auth": "READ,ADD,EDIT,DELETE,EXPORT,PRINT"
+            },
+          	{
+                "name": "管理登陆",
+          		"en_name": "ManageLogin",
+                "url": "stats/manage_login",
+          		"auth": "READ,ADD,EDIT,DELETE,EXPORT,PRINT"
+            },
+            {
+                 "name": "操作记录",
+                 "en_name": "HandleLog",
+                 "url": "stats/handle_log",
+                 "auth": "READ,ADD,EDIT,DELETE,EXPORT,PRINT"
+            },
+            {
+                "name": "会员消息",
+                "en_name": "MemberInfo",
+                "url": "stats/member_info",
+                "auth": "READ,ADD,EDIT,DELETE,EXPORT,PRINT"
+            },
+            {
+                "name": "前台公告",
+                "en_name": "FrontNotice",
+                "url": "stats/front_notice",
+                "auth": "READ,ADD,EDIT,DELETE,EXPORT,PRINT"
+            }
+		]
+	},
+	
+	{
+        "name": "设置",
+		"en_name": "Setting",
+        "icon": "entypo-flow-tree",
+        "submenu": [
+            {
+                "name": "站点配置",
+                "en_name": "SiteSetting",
+                "url": "setting/site_set",
+                "auth": "READ,ADD,EDIT,DELETE"
+            },
+            {
+                "name": "域名配置",
+                "en_name": "SiteConfiguration",
+                "url": "setting/site_domain",
+                "auth": "READ,ADD,EDIT,DELETE"
+            },
+            {
+                "name": "网站信息",
+                "en_name": "SiteInformation",
+                "url": "setting/site_information",
+                "auth": "READ,ADD,EDIT,DELETE"
+            },
+            {
+                "name": "支付信息",
+                "en_name": "PaymentInformation",
+                "url": "setting/pay_information",
+                "auth": "READ,ADD,EDIT,DELETE"
+            },
+            {
+                 "name": "文章管理",
+                 "en_name": "ArticleManagement",
+                 "url": "setting/article_manage",
+                 "auth": "READ,ADD,EDIT,DELETE"
+            },
+            {
+                 "name": "广告管理",
+                 "en_name": "AdvertiseManagement",
+                 "url": "setting/advertise_manage",
+                 "auth": "READ,ADD,EDIT,DELETE"
+            },
+            {
+                 "name": "活动管理",
+                 "en_name": "ActivityManagement",
+                 "url": "setting/activity_manage",
+                 "auth": "READ,ADD,EDIT,DELETE"
+            },
+            {
+                "name": "人力资源",
+				"en_name": "HumanResource",
+                "url": "manager/index",
+				"auth": "READ,ADD,EDIT,DELETE"
+            },
+			{
+                "name": "员工列表",
+				"en_name": "StaffList",
+                "url": "manager/staff",
+				"auth": "READ,ADD,EDIT,DELETE"
+            },
+			{
+                "name": "修改密码",
+				"en_name": "Password",
+                "url": "manager/password",
+				"auth": "READ,ADD,EDIT,DELETE"
+            }
+        ]
+    }
+]

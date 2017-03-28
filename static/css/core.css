@@ -1,0 +1,1304 @@
+html,body{font-family:"Microsoft Yahei";font-size:12px}
+a{color:#666}
+.top-menu{background:#EA3524;color:#fff;border:0;overflow: hidden;height:43px;}
+.top-menu a{line-height:43px;color:#fff;font-size:14px !important; font-weight:bold; display: block; float: left; padding:0px 16px;text-align: center;}
+.top-menu a:hover{background-color:#f7802c;}
+#submenu{background:#F6F6F6;height:40px;padding-left:10px;}
+.submenu{list-style:none;display: none;padding: 0;margin: 0; }
+.submenu li{float:left; padding-right: 20px; line-height: 30px;}
+.submenu .active{background:#F6F6F6;}
+.panel-title{height:25px; line-height:25px; color:#666; font-size:13px}
+.nav-platforms .btn{font-size:12px;padding-left:10px;padding-right:10px}
+.nav-platforms{padding:8px 5px}
+.head-left{float:left;width:185px;padding-left:20px}
+.head-center{float:left;width:520px;margin:7px}
+.head-center a{padding-left:10px;padding-right:10px}
+.head-right{float:right}
+.mobile{background:url(../images/screen.jpg);width:400px;height:578px;position:relative;border:1px solid #555;border-radius:5px}
+.blank{background:url(../images/blank.jpg)}
+.mobile_wrapper{width:440px;position:relative;font-family:'Microsoft Yahei';margin-bottom:15px}
+.mobile_indicator{text-align:center;padding-top:10px}
+.mobile_indicator i{margin-right:15px;font-size:18px;color:#fff}
+.mobile_wrapper .addBtn{position:absolute;bottom:55px;right:-28px;font-size:15px;font-family:weight;z-index:400}
+:focus{outline:0}
+.table{color:#333}
+.form-horizontal label{color:#333}
+.modal-content{-moz-box-shadow: 0 0 5px #999;-webkit-box-shadow: 0 0 5px#999;box-shadow: 0 0 5px #999;}
+
+/* 弹出框的修改 */
+.modal-body{
+	padding:5px 20px 5px 20px;
+}
+
+.modal-header{
+	padding:5px;
+}
+
+.modal-footer{
+	text-align: center;
+}
+.modal-footer .btn + .btn{
+	margin-left:20px;
+}
+
+.modal-footer{
+	margin-top:0;
+	padding:5px 20px;
+}
+
+/*弹出框按钮*/
+.btn.cancel,.btn.confirm{
+	padding:4px 14px!important;
+}
+/*-----------账号管理---------*/
+/* 查看会员 */
+/*#checkMember{
+	width:160%;
+}*/
+#checkMember .table>tbody>tr>td{
+	padding:4px;
+	line-height: 30px;
+}
+
+#checkMember .table>tbody>tr>td:first-child{
+	text-align: right;
+	width:22%;
+}
+
+#checkMember.form-horizontal .form-group{
+	margin-bottom:4px;
+}
+#checkMember .form-control{
+	padding:2px 12px!important;
+	height:30px!important;
+	width:90%;
+	line-height: normal;
+}
+#checkMember .form-control.real_name,
+#checkMember .form-control.deposit_pwd,
+#checkMember .form-control.birth_time,
+#checkMember .form-control.deposit_bank{
+	width:135px;
+}
+/* 目标层级样式 */
+#levelMove{
+	text-align: center;
+	margin:20px;
+}
+
+#levelMove>*{
+	margin-right:10px;
+	display: inline-block;
+}
+
+#levelMove.form-horizontal select.form-control{
+	padding:2px 12px!important;
+	height:auto!important;
+	display: inline-block;
+	width:135px;
+	margin-right:4px;
+}
+
+#levelMove input[type=checkbox]{
+	margin:2px -20px;
+}
+
+#levelMove .checkbox{
+	min-width:70px;
+}
+
+/* 基本资料设定 */
+#information.form-horizontal{
+	width:140%;
+	margin:0 auto;
+}
+
+#information.form-horizontal .form-group{
+	margin-bottom:4px;
+}
+
+#information.form-horizontal .form-control{
+	padding:2px 12px!important;
+	height:auto!important;
+	display: inline-block;
+	width:135px;
+	margin-right:4px;
+}
+
+#information.form-horizontal .radio{
+	display: inline-block;
+}
+
+#information .radio input[type=radio]{
+	margin:2px -17px;
+}
+/*--------------代理--------------*/
+/* 代理资料设定 */
+#agencyInf{
+	width:105%;
+}
+
+#agencyInf.form-horizontal .form-group{
+	margin-bottom: 4px;
+}
+
+#agencyInf.form-horizontal .form-control{
+	padding:2px 12px!important;
+	height:auto!important;
+	display: inline-block;
+	width:135px;
+	margin-right:4px;
+}
+
+/* 注册会员优惠设定 */
+#memberDis {
+	margin-left:-40px;
+	width:120%;
+}
+
+#memberDis.form-horizontal .form-group{
+	width:100%;
+	margin-bottom: 4px;
+}
+
+#memberDis.form-horizontal .form-control{
+	padding:2px 12px!important;
+	height:auto!important;
+	display: inline-block;
+	width:135px;
+	margin-right:4px;
+}
+
+#memberDis .restrict{
+	display: inline-block;
+	min-width:150px;
+}
+
+#memberDis .radio{
+	margin-bottom:2px;
+	vertical-align: middle;
+	display: inline-block;
+	margin-right: 4px;
+	min-width:150px;
+}
+
+#memberDis input[type=radio] {
+	margin:2px -20px!important;
+}
+
+/*---------------------子账号-----------*/
+/*  子账号权限管理*/
+#magForm.form-horizontal .form-control{
+	padding:2px 12px!important;
+	height:auto!important;
+	display: inline-block;
+	width:135px;
+	margin-right:4px;
+}
+
+#magForm .form-group{
+	margin-bottom:4px!important;
+}
+
+#mana_pane,#management{
+	margin-bottom: 10px;
+}
+
+#mana_pane td{
+	padding:2px!important;
+	vertical-align: middle;
+}
+
+#mana_pane td.body_r{
+	border-right:1px solid #ddd!important;
+	min-width:92px;
+}
+
+#mana_pane div.head{
+	border:1px solid #ddd;
+	background:#f0f0f1;
+	min-height:30px;
+	line-height:30px;
+	padding:0 2px;
+}
+
+#mana_pane div.body{
+	border:1px solid #ddd;
+	border-top-width:0;
+}
+
+#mana_pane input[type=checkbox]{
+	margin:4px 5px 4px 18px!important;
+}
+
+
+/*-----------------报表---------------*/
+#report{
+	width: 52%;
+	margin-right:10px;
+}
+
+#report button.btn.btn-danger{
+	padding:0 12px;
+	font-size: 12px;
+}
+
+#qishu{
+	width:47%;
+}
+
+#report tr:first-child,#qishu tr:first-child{
+	height:44px;
+	line-height: 44px;
+}
+
+#report,#qishu{
+	min-height:560px;
+
+}
+
+#report tr td{
+	vertical-align: middle;
+	text-align: center;
+}
+
+#report tr td:first-child{
+	min-width: 100px;
+}
+
+#report tr td.tal{
+	text-align: left;
+}
+
+#report select{
+	width:100px;
+	padding:2px 12px!important;
+	height:auto!important;
+	display: inline-block;
+}
+
+#report .radio, .checkbox{
+	display:inline-block;
+	min-width:100px;
+	margin-top:-5px;
+	margin-bottom:0px;
+}
+
+#report .checkbox input[type=checkbox],#report .radio input[type=radio]{
+	margin-top:2px;
+}
+
+#report button.btn.btn-danger.search{
+	padding:4px 30px;
+}
+
+#qishu tr td:nth-child(2n+1){
+	width:100px;
+	text-align: center;
+}
+
+#qishu tr td:nth-child(2n){
+	width:150px;
+	text-align: center;
+}
+
+#report .textbox-addon{
+	background: #fff;
+}
+/*分类报表  交收报表*/
+#settlementReport table,#classifyReport table{
+	text-align: center;
+}
+
+#settlementReport table tr.last_line,#classifyReport table tr.last_line{
+	font-weight: bold;
+}
+
+#settlementReport button.btn.back,#classifyReport button.btn.back{
+	padding:2px 12px;
+	font-size: 12px;
+	margin:5px;
+}
+
+/*报表查询*/
+#reportSearch.table>tbody>tr>td,#searchLottery.table>tbody>tr>td{
+	vertical-align: middle!important;
+	text-align: center;
+	padding:4px;
+}
+#reportSearch.table>tbody>tr>td.total,#searchLottery.table>tbody>tr>td.total{
+	width:500px;
+}
+
+#reportSearch.table>tbody>tr>td.eql,#searchLottery.table>tbody>tr>td.eql {
+	width:100px;
+}
+
+#reportSearch div.fr,#searchLottery div.fr{
+	margin-right:100px;
+}
+/*------------------赔率------------------*/
+/*赔率设置*/
+*{
+	list-style: none;
+	padding:0;
+	margin:0;
+}
+
+#oddContent select.form-control{
+	display: inline-block;
+	width:100px;
+	height:auto;
+}
+
+#oddContent button.btn.btn-danger{
+	padding:0px 12px;
+	margin-top: -7px;
+	font-size: 12px;
+}
+#content{
+	width:100%;
+	border:1px solid #ddd;
+	border-bottom:0;
+	text-align: center;
+}
+#content .content_head{
+	width:100%;
+	height:40px;
+	line-height: 40px;
+	border-bottom:1px solid #ddd;
+}
+
+#content .content_title,#content .content_body{
+	width:100%;
+	overflow: hidden;
+}
+
+ ul.ball,ul.ball_title{
+	overflow: hidden;
+	float:left;
+	width:20%;
+	margin-bottom:0;
+}
+
+ul.ball li,ul.ball_title li{
+	width:25%;
+	height:40px;
+	line-height: 40px;
+	text-align: center;
+	float: left;
+	border-right:1px solid #ddd;
+	border-bottom:1px solid #ddd;
+}
+
+ul.ball li.ball_color{
+	background:#dff0d8;
+	cursor: pointer;
+}
+
+ul.ball:hover li.ball_color{
+	background:#bcf5a4;
+	cursor: pointer;
+}
+
+
+/*------------------------层级---------------------*/
+/*基本资料设定*/
+#levelForm .first_line{
+	text-align: right;
+}
+
+#levelForm .radio, .checkbox{
+	margin:0;
+}
+
+#levelForm .info_set.table-bordered > tbody > tr > td{
+	vertical-align: middle;
+	padding:4px!important;
+}
+
+#levelForm label{
+	margin-bottom:0!important;
+	font-weight: normal;
+	line-height: 20px;
+}
+
+#levelForm .form-control.paySet{
+	width:130px;
+	height: auto;
+	padding:2px 12px;
+	display: inline-block;
+}	
+
+/*层级  支付设定*/
+#paySet.table>tbody>tr>td:first-child{
+	max-width:150px;
+}
+
+#levelPay.form-horizontal .radio, #levelPay.form-horizontal .checkbox{
+	display: inline-block;
+	padding-top:0;
+	min-height: auto;
+}
+
+#levelPay .form-control{
+	width:64px;
+	display: inline-block;
+	padding:0px 2px;
+	height:auto;
+	margin-right:4px;
+}
+
+#paySet.table>tbody>tr>td.levelFont{
+	max-width:200px;
+	padding:12px;
+}
+
+#paySet.table>tbody>tr>td{
+	padding:3px;
+	vertical-align: middle;
+	height:30px!important;
+}
+
+#paySet input[type=checkbox],#paySet input[type=radio]{
+	margin:2px -18px;
+}
+
+/*修改银行卡*/
+#bank_revise{
+    width:150%;
+}
+
+#bank_revise.form-horizontal .form-control{
+    padding:2px 12px!important;
+    height:auto!important;
+    display: inline-block;
+    width:200px;
+    margin-right:4px;
+}
+
+#bank_revise .form-group{
+    margin-bottom:4px!important;
+}
+
+#bank_revise .form-control,#bank_revise select.bank_name{
+    height:auto;
+    padding:2px 12px;
+    width:135px;
+}
+
+#bank_revise div.status input.radio{
+    display: inline-block;
+    margin-right:4px;
+}
+
+/*修改支付信息*/
+#pay_revise .table>tbody>tr>td{
+	padding:4px!important;
+}
+
+#pay_revise .table>tbody>tr>td:first-child{
+	min-width:100px;
+}
+
+#pay_revise.form-horizontal .form-control{
+	padding:2px 12px!important;
+	height:auto!important;
+	display: inline-block;
+	width:200px;
+	margin-right:4px;
+}
+
+#pay_revise.form-horizontal .form-control.point_card{
+	width:70px;
+}
+
+#pay_revise.form-horizontal .form-control.pay_platform{
+	width:135px;
+}
+
+#pay_revise.form-horizontal textarea.form-control{
+	width:300px;
+	max-width:400px;
+	height:100px;
+	max-height: 100px;
+}
+/*--------------账号管理-------------------*/
+/*存取款*/
+#deposit_withdraw_money {
+	width:50%;
+	margin:0 auto;
+}
+#deposit_withdraw_money tr:first-child {
+	text-align: center;
+	height:35px;
+}
+#deposit_withdraw_money td {
+	padding:4px;
+}
+#deposit_withdraw_money td:nth-child(odd) {
+	text-align: center;
+}
+#deposit_withdraw_money input[type=text], #deposit_withdraw_money select {
+	width:200px;
+}
+#deposit_withdraw_money input[type=text], #deposit_withdraw_money select, #deposit_withdraw_money button{
+	padding:2px 12px;
+	height:auto;
+	display: inline-block;
+}
+/*----------------稽核设置-----------------*/
+#audit_list table td {
+	text-align: center;
+}
+#audit_list form {
+	margin:10px 0;
+}
+#audit_list form input {
+	width:200px;
+}
+#audit_list form input, #audit_list form button {
+	padding:2px 12px;
+	height:auto;
+	display:inline-block;
+}/*--------额度统计------------*/
+#cash_blance td {
+	height:43px;
+}
+#cash_blance button {
+	padding:2px 12px;
+	height:auto;
+	display:inline-block;
+}
+/*----------------设置--------------------*/
+/*站点配置*/
+#siteSet.form-horizontal .table{
+	margin-bottom:10px;
+}
+
+#siteSet.form-horizontal .form-control{
+    padding:2px 12px!important;
+    height:auto;
+    display: inline-block;
+    width:400px;
+    margin-right:4px;
+}
+
+#siteSet.form-horizontal textarea.form-control{
+	width:400px;
+	max-width: 400px;
+	height:180px;
+	max-height:180px;
+}
+
+#siteSet .table>tbody>tr>td{
+	padding:4px;
+	height:32px;
+}
+
+#siteSet .table>tbody>tr>td:first-child{
+	padding-right:10px;
+	text-align: right;
+	width:120px;
+}
+
+#siteSet .btn.site_button{
+	padding:4px 14px;
+}
+/*网站信息*/
+#siteInfor,#payInfor{
+	padding:0 10px;
+}
+
+#siteInfor #site_form,#payInfor #pay_form{
+	overflow: hidden;
+}
+
+#siteInfor a,#payInfor a{
+	display:inline-block;
+	padding:5px 10px;
+}
+
+#siteInfor button.btn,#payInfor button.btn{
+	margin:10px 0px;
+}
+
+#siteInfor span,#payInfor span{
+	margin:10px;
+}
+/*文章管理*/
+#articleManage.table>tbody>tr>td{
+	text-align: center;
+}
+
+#articleManage.table>tbody>tr>td:nth-of-type(5){
+	width:500px;
+}
+
+/*广告管理*/
+#advertiseManage.table>tbody>tr>td{
+	text-align: center;
+}
+
+#advertiseManage.table>tbody>tr>td:nth-of-type(3){
+	width:400px;
+}
+/*活动管理*/
+#activityManage.table>tbody>tr>td{
+	text-align: center;
+}
+
+/*设置内容*/
+#content_set_form.form-horizontal>.table>tbody>tr>td:first-child{
+	width:10%!important;
+}
+
+/*广告页面上传图片*/
+.de_title_gai{
+    background-color: #081425;
+    height: 30px;
+    line-height: 30px;
+    overflow: hidden;
+    color: #666;
+    padding: 0 10px;
+    font-size: 14px;
+    border-bottom: 1px solid #e5e5e5;
+    background: #f7f7f7;
+    border-radius: 4px 4px 0 0;
+}
+
+#logo_up{
+  width:50%;
+  margin:0 auto;
+}
+
+#ad_revise .form-control{
+  width:120px;
+  height:auto;
+  display: inline-block;
+  padding:0 12px;
+}
+
+#ad_revise input[type=radio]{
+  margin:-3px 4px 0 0;
+  vertical-align: middle;
+}
+
+#ad_revise .m_tab_ed.table>tbody>tr>td:first-child{
+  width:100px;
+}
+
+#ad_revise .m_tab_ed.table>tbody>tr>td.m_co_ed{ 
+  width: 100px;
+}
+
+div.layui-layer-content form.form-horizontal{
+  margin:20px;
+}
+
+div.layui-layer-content tr.m_title{
+  margin-bottom:10px;
+}
+
+div.layui-layer-content input.btn{
+  padding:0px 12px;
+}
+input.btn.upload{
+  padding:0px 12px;
+  margin:-3px 6px 0 0;
+  border:0;
+}
+
+/*活动页面上传图片*/
+#activity_set_form .form-control{
+display: inline-block;
+height:auto;
+padding:2px 12px;
+}
+
+#activity_set_form input.btn{
+padding:2px 12px;
+}
+
+#activity_set_form select{
+width:135px;
+}
+
+#activity_set_form input[type=text].form-control{
+width:300px;
+}
+
+/*发布新消息*/
+#sendInfo .form-control{
+	display: inline-block;
+	height:auto;
+	padding:2px 12px;
+	width:160px;
+}
+#sendInfo select.form-control{
+	width:100px;
+}
+
+#sendInfo textarea.form-control{
+	min-width:300px;
+	min-height:150px;
+}
+/*-------------------------*/
+.fadein,.fadein-top,.fadein-right,.fadein-bottom,.fadein-left,.bouncein,.rotatein {
+	-webkit-animation: 1s ease-out backwards;
+	-moz-animation: 1s ease-out backwards;
+	-ms-animation: 1s ease-out backwards;
+	animation: 1s ease-out backwards
+}
+
+.fadeout,.fadeout-top,.fadeout-right,.fadeout-bottom,.fadeout-left,.bounceout,.rotateout {
+	-webkit-animation: 1s ease-in forwards;
+	-moz-animation: 1s ease-in forwards;
+	-ms-animation: 1s ease-in forwards;
+	animation: 1s ease-in forwards
+}
+
+.rotate,.rotate-hover {
+	-webkit-animation: 2s infinite linear;
+	-moz-animation: 2s infinite linear;
+	-ms-animation: 2s infinite linear;
+	animation: 2s infinite linear;
+	display: inline-block
+}
+
+.fadein {
+	-webkit-animation-name: a-fadein;
+	-moz-animation-name: a-fadein;
+	-ms-animation-name: a-fadein;
+	animation-name: a-fadein
+}
+
+@-webkit-keyframes a-fadein {
+	0% {
+		opacity: 0
+	}
+
+	100% {
+		opacity: 1
+	}
+}
+
+@-moz-keyframes a-fadein {
+	0% {
+		opacity: 0
+	}
+
+	100% {
+		opacity: 1
+	}
+}
+
+@-ms-keyframes a-fadein {
+	0% {
+		opacity: 0
+	}
+
+	100% {
+		opacity: 1
+	}
+}
+
+@keyframes a-fadein {
+	0% {
+		opacity: 0
+	}
+
+	100% {
+		opacity: 1
+	}
+}
+
+.fadein-top {
+	-webkit-animation-name: fadeinT;
+	-moz-animation-name: fadeinT;
+	-ms-animation-name: fadeinT;
+	animation-name: fadeinT
+}
+
+@-webkit-keyframes fadeinT {
+	0% {
+		opacity: 0;
+		-webkit-transform: translateY(-50px)
+	}
+
+	100% {
+		opacity: 1;
+		-webkit-transform: translateY(0)
+	}
+}
+
+@-moz-keyframes fadeinT {
+	0% {
+		opacity: 0;
+		-moz-transform: translateY(-50px)
+	}
+
+	100% {
+		opacity: 1;
+		-moz-transform: translateY(0)
+	}
+}
+
+@-ms-keyframes fadeinT {
+	0% {
+		opacity: 0;
+		-ms-transform: translateY(-50px)
+	}
+
+	100% {
+		opacity: 1;
+		-ms-transform: translateY(0)
+	}
+}
+
+@keyframes fadeinT {
+	0% {
+		opacity: 0;
+		transform: translateY(-50px)
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateY(0)
+	}
+}
+
+.fadein-right {
+	-webkit-animation-name: fadeinR;
+	-moz-animation-name: fadeinR;
+	-ms-animation-name: fadeinR;
+	animation-name: fadeinR
+}
+
+@-webkit-keyframes fadeinR {
+	0% {
+		opacity: 0;
+		-webkit-transform: translateX(50px)
+	}
+
+	100% {
+		opacity: 1;
+		-webkit-transform: translateX(0)
+	}
+}
+
+@-moz-keyframes fadeinR {
+	0% {
+		opacity: 0;
+		-moz-transform: translateX(50px)
+	}
+
+	100% {
+		opacity: 1;
+		-moz-transform: translateX(0)
+	}
+}
+
+@-ms-keyframes fadeinR {
+	0% {
+		opacity: 0;
+		-ms-transform: translateX(50px)
+	}
+
+	100% {
+		opacity: 1;
+		-ms-transform: translateX(0)
+	}
+}
+
+@keyframes fadeinR {
+	0% {
+		opacity: 0;
+		transform: translateX(50px)
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0)
+	}
+}
+
+.fadein-bottom {
+	-webkit-animation-name: fadeinB;
+	-moz-animation-name: fadeinB;
+	-ms-animation-name: fadeinB;
+	animation-name: fadeinB
+}
+
+@-webkit-keyframes fadeinB {
+	0% {
+		opacity: 0;
+		-webkit-transform: translateY(50px)
+	}
+
+	100% {
+		opacity: 1;
+		-webkit-transform: translateY(0)
+	}
+}
+
+@-moz-keyframes fadeinB {
+	0% {
+		opacity: 0;
+		-moz-transform: translateY(50px)
+	}
+
+	100% {
+		opacity: 1;
+		-moz-transform: translateY(0)
+	}
+}
+
+@-ms-keyframes fadeinB {
+	0% {
+		opacity: 0;
+		-ms-transform: translateY(50px)
+	}
+
+	100% {
+		opacity: 1;
+		-ms-transform: translateY(0)
+	}
+}
+
+@keyframes fadeinB {
+	0% {
+		opacity: 0;
+		transform: translateY(50px)
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateY(0)
+	}
+}
+
+.fadein-left {
+	-webkit-animation-name: fadeinL;
+	-moz-animation-name: fadeinL;
+	-ms-animation-name: fadeinL;
+	animation-name: fadeinL
+}
+
+@-webkit-keyframes fadeinL {
+	0% {
+		opacity: 0;
+		-webkit-transform: translateX(-50px)
+	}
+
+	100% {
+		opacity: 1;
+		-webkit-transform: translateX(0)
+	}
+}
+
+@-moz-keyframes fadeinL {
+	0% {
+		opacity: 0;
+		-moz-transform: translateX(-50px)
+	}
+
+	100% {
+		opacity: 1;
+		-moz-transform: translateX(0)
+	}
+}
+
+@-ms-keyframes fadeinL {
+	0% {
+		opacity: 0;
+		-ms-transform: translateX(-50px)
+	}
+
+	100% {
+		opacity: 1;
+		-ms-transform: translateX(0)
+	}
+}
+
+@keyframes fadeinL {
+	0% {
+		opacity: 0;
+		transform: translateX(-50px)
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0)
+	}
+}
+
+.fadeout {
+	-webkit-animation-name: a-fadeout;
+	-moz-animation-name: a-fadeout;
+	-ms-animation-name: a-fadeout;
+	animation-name: a-fadeout
+}
+
+@-webkit-keyframes a-fadeout {
+	0% {
+		opacity: 1
+	}
+
+	100% {
+		opacity: 0
+	}
+}
+
+@-moz-keyframes a-fadeout {
+	0% {
+		opacity: 1
+	}
+
+	100% {
+		opacity: 0
+	}
+}
+
+@-ms-keyframes a-fadeout {
+	0% {
+		opacity: 1
+	}
+
+	100% {
+		opacity: 0
+	}
+}
+
+@keyframes a-fadeout {
+	0% {
+		opacity: 1
+	}
+
+	100% {
+		opacity: 0
+	}
+}
+
+.fadeout-top {
+	-webkit-animation-name: fadeoutT;
+	-moz-animation-name: fadeoutT;
+	-ms-animation-name: fadeoutT;
+	animation-name: fadeoutT
+}
+
+@-webkit-keyframes fadeoutT {
+	0% {
+		opacity: 1;
+		-webkit-transform: translateY(0)
+	}
+
+	100% {
+		opacity: 0;
+		-webkit-transform: translateY(-100px)
+	}
+}
+
+@-moz-keyframes fadeoutT {
+	0% {
+		opacity: 1;
+		-moz-transform: translateY(0)
+	}
+
+	100% {
+		opacity: 0;
+		-moz-transform: translateY(-100px)
+	}
+}
+
+@-ms-keyframes fadeoutT {
+	0% {
+		opacity: 1;
+		-ms-transform: translateY(0)
+	}
+
+	100% {
+		opacity: 0;
+		-ms-transform: translateY(-100px)
+	}
+}
+
+@keyframes fadeoutT {
+	0% {
+		opacity: 1;
+		transform: translateY(0)
+	}
+
+	100% {
+		opacity: 0;
+		transform: translateY(-100px)
+	}
+}
+
+.fadeout-right {
+	-webkit-animation-name: fadeoutR;
+	-moz-animation-name: fadeoutR;
+	-ms-animation-name: fadeoutR;
+	animation-name: fadeoutR
+}
+
+@-webkit-keyframes fadeoutR {
+	0% {
+		opacity: 1;
+		-webkit-transform: translateX(0)
+	}
+
+	100% {
+		opacity: 0;
+		-webkit-transform: translateX(100px)
+	}
+}
+
+@-moz-keyframes fadeoutR {
+	0% {
+		opacity: 1;
+		-moz-transform: translateX(0)
+	}
+
+	100% {
+		opacity: 0;
+		-moz-transform: translateX(100px)
+	}
+}
+
+@-ms-keyframes fadeoutR {
+	0% {
+		opacity: 1;
+		-ms-transform: translateX(0)
+	}
+
+	100% {
+		opacity: 0;
+		-ms-transform: translateX(100px)
+	}
+}
+
+@keyframes fadeoutR {
+	0% {
+		opacity: 1;
+		transform: translateX(0)
+	}
+
+	100% {
+		opacity: 0;
+		transform: translateX(100px)
+	}
+}
+
+.fadeout-bottom {
+	-webkit-animation-name: fadeoutB;
+	-moz-animation-name: fadeoutB;
+	-ms-animation-name: fadeoutB;
+	animation-name: fadeoutB
+}
+
+@-webkit-keyframes fadeoutB {
+	0% {
+		opacity: 1;
+		-webkit-transform: translateY(0)
+	}
+
+	100% {
+		opacity: 0;
+		-webkit-transform: translateY(100px)
+	}
+}
+
+@-moz-keyframes fadeoutB {
+	0% {
+		opacity: 1;
+		-moz-transform: translateY(0)
+	}
+
+	100% {
+		opacity: 0;
+		-moz-transform: translateY(100px)
+	}
+}
+
+@-ms-keyframes fadeoutB {
+	0% {
+		opacity: 1;
+		-ms-transform: translateY(0)
+	}
+
+	100% {
+		opacity: 0;
+		-ms-transform: translateY(100px)
+	}
+}
+
+@keyframes fadeoutB {
+	0% {
+		opacity: 1;
+		transform: translateY(0)
+	}
+
+	100% {
+		opacity: 0;
+		transform: translateY(100px)
+	}
+}
+
+.fadeout-left {
+	-webkit-animation-name: fadeoutL;
+	-moz-animation-name: fadeoutL;
+	-ms-animation-name: fadeoutL;
+	animation-name: fadeoutL
+}
+
+@-webkit-keyframes fadeoutL {
+	0% {
+		opacity: 1;
+		-webkit-transform: translateX(0)
+	}
+
+	100% {
+		opacity: 0;
+		-webkit-transform: translateX(-100px)
+	}
+}
+
+@-moz-keyframes fadeoutL {
+	0% {
+		opacity: 1;
+		-moz-transform: translateX(0)
+	}
+
+	100% {
+		opacity: 0;
+		-moz-transform: translateX(-100px)
+	}
+}
+
+@-ms-keyframes fadeoutL {
+	0% {
+		opacity: 1;
+		-ms-transform: translateX(0)
+	}
+
+	100% {
+		opacity: 0;
+		-ms-transform: translateX(-100px)
+	}
+}
+
+@keyframes fadeoutL {
+	0% {
+		opacity: 1;
+		transform: translateX(0)
+	}
+
+	100% {
+		opacity: 0;
+		transform: translateX(-100px)
+	}
+}
+
+
+
