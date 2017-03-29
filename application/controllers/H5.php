@@ -10,6 +10,11 @@ class H5 extends CI_Controller
         $this->load->model('GameTips_model');
     }
 
+    public function index(){
+
+        $this->load->view('h5/index');
+    }
+
     public function every_color(){
 
         $result = $this->GameRules_model->readData('every_color');
@@ -47,10 +52,12 @@ class H5 extends CI_Controller
         $this->load->view('h5/game_rule',$result);
     }
 
+
     public function promotions_show(){
         $result['test'] = 'promotions';
         $this->load->view('h5/promotions_show',$result);
     }
+
 
     public function game_tips_api_every_color(){
         $result = $this->GameTips_model->readData('every_color');
@@ -72,10 +79,16 @@ class H5 extends CI_Controller
         echo json_encode($result,JSON_UNESCAPED_UNICODE);
     }
 
+
     public function game_tips_api_three_d_lottery(){
         $result = $this->GameTips_model->readData('three_d_lottery');
         echo json_encode($result,JSON_UNESCAPED_UNICODE);
     }
 
+    public function game_record_every_color(){
+        $result['test'] = 'promotions';
+        $this->load->view('h5/record_every_color',$result);
+
+    }
 
 }

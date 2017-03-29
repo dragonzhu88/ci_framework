@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>全网通营销管理后台-移动版</title>
-    <link rel="stylesheet" type="text/css" href="../static/js/layout/themes/bootstrap/easyui.css">
-    <link rel="stylesheet" type="text/css" href="../static/js/layout/themes/mobile.css">
-    <link rel="stylesheet" type="text/css" href="../static/js/layout/themes/icon.css">
-    <script type="text/javascript" src="../static/js/jquery.min.js"></script>
-    <script type="text/javascript" src="../static/js/layout/jquery.easyui.min.js"></script>
-    <script type="text/javascript" src="../static/js/layout/jquery.easyui.mobile.js"></script>
-    <script type="text/javascript" src="../static/js/layout/locale/easyui-lang-zh_CN.js"></script>
+    <link rel="stylesheet" type="text/css" href="static/js/layout/themes/bootstrap/easyui.css">
+    <link rel="stylesheet" type="text/css" href="static/js/layout/themes/mobile.css">
+    <link rel="stylesheet" type="text/css" href="static/js/layout/themes/icon.css">
+    <script type="text/javascript" src="static/js/jquery.min.js"></script>
+    <script type="text/javascript" src="static/js/layout/jquery.easyui.min.js"></script>
+    <script type="text/javascript" src="static/js/layout/jquery.easyui.mobile.js"></script>
+    <script type="text/javascript" src="static/js/layout/locale/easyui-lang-zh_CN.js"></script>
 </head>
 <body>
 
@@ -18,7 +18,7 @@
     <div class="accordion">
         <div class="item">
             <p><span class="item-header-title">加入趣彩，天天添彩添财！</span> <span class="item-header-time" >2017-02-22</span></p>
-            <img src="/admin/static/images/index_01.png" alt="">
+            <img src="/static/images/index_01.png" alt="">
             <p><a class="item-header-a" href="#">立即查看</a></p>
         </div>
 
@@ -44,7 +44,7 @@
 
         <div class="item">
             <p><span class="item-header-title">给梦想一个机会</span> <span class="item-header-time" >2017-02-22</span></p>
-            <img src="/admin/static/images/dream_02.jpg" alt="">
+            <img src="/static/images/dream_02.jpg" alt="">
             <p><a class="item-header-a" href="#">立即查看</a></p>
         </div>
         <div class="content">
@@ -132,7 +132,7 @@
 
         <div class="item">
             <p><span class="item-header-title">注册即送17元</span> <span class="item-header-time" >2017-02-22</span></p>
-            <img src="/admin/static/images/77_03.jpg" alt="">
+            <img src="/static/images/77_03.jpg" alt="">
             <p><a class="item-header-a" href="#">立即查看</a></p>
         </div>
         <div class="content">
@@ -173,7 +173,7 @@
 
         <div class="item">
             <p><span class="item-header-title">免费试玩</span> <span class="item-header-time" >2017-02-22</span></p>
-            <img src="/admin/static/images/2000_04.jpg" alt="">
+            <img src="/static/images/2000_04.jpg" alt="">
             <p><a class="item-header-a" href="#">立即查看</a></p>
         </div>
         <div class="content">
@@ -186,7 +186,7 @@
 
         <div class="item">
             <p><span class="item-header-title">支付方式</span> <span class="item-header-time" >2017-02-22</span></p>
-            <img src="/admin/static/images/lowest_05.png" alt="">
+            <img src="/static/images/lowest_05.png" alt="">
             <p><a class="item-header-a" href="#">立即查看</a></p>
         </div>
         <div class="content">
@@ -227,7 +227,7 @@
 
         <div class="item">
             <p><span class="item-header-title">多样化彩种</span> <span class="item-header-time" >2017-02-22</span></p>
-            <img src="/admin/static/images/battle_06.jpg" alt="">
+            <img src="/static/images/battle_06.jpg" alt="">
             <p><a class="item-header-a" href="#">立即查看</a></p>
         </div>
         <div class="content">
