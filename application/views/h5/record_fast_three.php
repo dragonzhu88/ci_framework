@@ -17,9 +17,9 @@
     <div data-role="navbar">
         <div data-role="header" data-position="fixed" data-tap-toggle="false" class="tab-list-content">
             <ul>
-                <li><a href="#one" data-ajax>百</a></li>
-                <li><a href="#two" data-ajax>十</a></li>
-                <li><a href="#three" data-ajax>个</a></li>
+                <li><a href="#one" class="ui-btn-active">百</a></li>
+                <li><a href="#two" >十</a></li>
+                <li><a href="#three" >个</a></li>
             </ul>
         </div>
         <div id="footer">
@@ -938,6 +938,14 @@
         color: #ffffff;
         /*border-radius: 50%;*/
         /*padding: 2pt;*/
+    }
+
+    th:last-child{
+        border: none;
+    }
+
+    td:last-child{
+        border: none;
     }
 
 </style>

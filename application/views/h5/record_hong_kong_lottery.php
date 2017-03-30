@@ -17,9 +17,9 @@
     <div data-role="navbar">
         <div data-role="header" data-position="fixed" data-tap-toggle="false" class="tab-list-content">
             <ul>
-                <li><a href="#num" data-ajax>号码</a></li>
-                <li><a href="#sum" data-ajax>总和</a></li>
-                <li><a href="#special" data-ajax>特码</a></li>
+                <li><a href="#num" class="ui-btn-active">号码</a></li>
+                <li><a href="#sum" >总和</a></li>
+                <li><a href="#special" >特码</a></li>
             </ul>
         </div>
 
@@ -725,7 +725,7 @@
     }
 
     .ui-table th, .ui-table td {
-        padding: 5pt;
+        padding: 5pt 4pt;
         text-align: center;
     }
 
@@ -747,13 +747,13 @@
     /*}*/
 
     th {
-        width: 12.5%;
+        width: 12%;
         height: 16pt;
         border-right: 1pt solid #8F8F8F;
     }
 
     td {
-        width: 12.5%;
+        width: 12%;
         height: 16pt;
         border-right: 1pt solid #8F8F8F;
     }
@@ -762,7 +762,7 @@
         color: #FFFFFF;
         background-color: #0000cc;
         border-radius: 50%;
-        width: 16pt;
+        width: 15pt;
         height: 16pt;
     }
 
@@ -770,7 +770,7 @@
         color: #FFFFFF;
         background-color: #ff0000;
         border-radius: 50%;
-        width: 16pt;
+        width: 15pt;
         height: 16pt;
     }
 
@@ -778,8 +778,24 @@
         color: #FFFFFF;
         background-color: #00cc04;
         border-radius: 50%;
-        width: 16pt;
+        width: 15pt;
         height: 16pt;
+    }
+
+    th:last-child{
+         border: none;
+     }
+
+    td:last-child{
+        border: none;
+    }
+
+    th:first-child{
+        width: 16%
+    }
+
+    td:first-child{
+        width: 16%
     }
 
 </style>

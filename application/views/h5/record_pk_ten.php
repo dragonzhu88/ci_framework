@@ -17,11 +17,11 @@
     <div data-role="navbar">
         <div data-role="header" data-position="fixed" data-tap-toggle="false" class="tab-list-content">
             <ul>
-                <li><a href="#one" data-ajax>第一位</a></li>
-                <li><a href="#two" data-ajax>第二位</a></li>
-                <li><a href="#three" data-ajax>第三位</a></li>
-                <li><a href="#four" data-ajax>第四位</a></li>
-                <li><a href="#five" data-ajax>第五位</a></li>
+                <li><a href="#one" class="ui-btn-active">第一位</a></li>
+                <li><a href="#two" >第二位</a></li>
+                <li><a href="#three" >第三位</a></li>
+                <li><a href="#four" >第四位</a></li>
+                <li><a href="#five" >第五位</a></li>
             </ul>
         </div>
         <div id="footer">
@@ -1820,6 +1820,14 @@
         width: 8.8%;
         height: 16pt;
         border-right: 1pt solid #8F8F8F;
+    }
+
+    th:last-child{
+        border: none;
+    }
+
+    td:last-child{
+        border: none;
     }
 
     .data-active{

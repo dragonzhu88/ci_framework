@@ -17,11 +17,11 @@
     <div data-role="navbar">
         <div data-role="header" data-position="fixed" data-tap-toggle="false" class="tab-list-content">
             <ul>
-                <li><a href="#one" data-ajax>万</a></li>
-                <li><a href="#two" data-ajax>千</a></li>
-                <li><a href="#three" data-ajax>百</a></li>
-                <li><a href="#four" data-ajax>十</a></li>
-                <li><a href="#five" data-ajax>个</a></li>
+                <li><a href="#one" class="ui-btn-active">万</a></li>
+                <li><a href="#two" >千</a></li>
+                <li><a href="#three" >百</a></li>
+                <li><a href="#four" >十</a></li>
+                <li><a href="#five" >个</a></li>
             </ul>
         </div>
         <div id="footer">
@@ -1846,6 +1846,14 @@
         width: 8.8%;
         height: 16pt;
         border-right: 1pt solid #8F8F8F;
+    }
+
+    th:last-child{
+        border: none;
+    }
+
+    td:last-child{
+        border: none;
     }
 
     .data-active{
