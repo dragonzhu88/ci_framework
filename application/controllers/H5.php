@@ -101,4 +101,19 @@ class H5 extends CI_Controller
         $this->load->view('h5/record_fast_three',$result);
     }
 
+    public function game_record_eleven_select_five(){
+        $result['test'] = 'promotions';
+        $this->load->view('h5/record_eleven_select_five',$result);
+    }
+
+    public function game_record_three_d_lottery(){
+        $result['test'] = 'promotions';
+        $this->load->view('h5/record_three_d_lottery',$result);
+    }
+
+    public function game_record_hong_kong_lottery(){
+        $result['test'] = 'promotions';
+        $this->load->view('h5/record_hong_kong_lottery',$result);
+    }
+
 }
