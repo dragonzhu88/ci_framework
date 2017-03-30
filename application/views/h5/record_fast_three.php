@@ -17,8 +17,6 @@
     <div data-role="navbar">
         <div data-role="header" data-position="fixed" data-tap-toggle="false" class="tab-list-content">
             <ul>
-                <li><a href="#one" data-ajax>万</a></li>
-                <li><a href="#two" data-ajax>千</a></li>
                 <li><a href="#three" data-ajax>百</a></li>
                 <li><a href="#four" data-ajax>十</a></li>
                 <li><a href="#five" data-ajax>个</a></li>
@@ -51,16 +49,12 @@
                 <!--                <div data-role="header" data-position="fixed" data-tap-toggle="false">-->
                 <tr>
                     <th class="chinese">期数</th>
-                    <th>0</th>
                     <th>1</th>
                     <th>2</th>
                     <th>3</th>
                     <th>4</th>
                     <th>5</th>
                     <th>6</th>
-                    <th>7</th>
-                    <th>8</th>
-                    <th>9</th>
                 </tr>
                 <!--                </div>-->
                 </thead>
@@ -73,84 +67,6 @@
                     <td>5</td>
                     <td>1</td>
                     <td>2</td>
-                    <td>3</td>
-                    <td>4</td>
-                    <td>5</td>
-                    <td>5</td>
-
-                </tr>
-
-                <tr>
-                    <td>1</td>
-                    <td>2</td>
-                    <td>3</td>
-                    <td>4</td>
-                    <td>5</td>
-                    <td class="data-active">1</td>
-                    <td>2</td>
-                    <td>3</td>
-                    <td>4</td>
-                    <td>5</td>
-                    <td>5</td>
-
-                </tr>
-
-                <tr>
-                    <td>1</td>
-                    <td class="data-active">2</td>
-                    <td>3</td>
-                    <td>4</td>
-                    <td>5</td>
-                    <td>1</td>
-                    <td>2</td>
-                    <td>3</td>
-                    <td>4</td>
-                    <td>5</td>
-                    <td>5</td>
-
-                </tr>
-                <tr>
-                    <td>1</td>
-                    <td>2</td>
-                    <td>3</td>
-                    <td>4</td>
-                    <td>5</td>
-                    <td>1</td>
-                    <td>2</td>
-                    <td>3</td>
-                    <td class="data-active">4</td>
-                    <td>5</td>
-                    <td>5</td>
-
-                </tr>
-
-                <tr>
-                    <td>1</td>
-                    <td>2</td>
-                    <td>3</td>
-                    <td>4</td>
-                    <td>5</td>
-                    <td>1</td>
-                    <td>2</td>
-                    <td>3</td>
-                    <td>4</td>
-                    <td class="data-active">5</td>
-                    <td>5</td>
-
-                </tr>
-
-                <tr>
-                    <td>1</td>
-                    <td>2</td>
-                    <td>3</td>
-                    <td>4</td>
-                    <td>5</td>
-                    <td>1</td>
-                    <td class="data-active">2</td>
-                    <td>3</td>
-                    <td>4</td>
-                    <td>5</td>
-                    <td>5</td>
 
 
                 </tr>
@@ -163,10 +79,54 @@
                     <td>5</td>
                     <td class="data-active">1</td>
                     <td>2</td>
+
+
+                </tr>
+
+                <tr>
+                    <td>1</td>
+                    <td class="data-active">2</td>
                     <td>3</td>
                     <td>4</td>
                     <td>5</td>
+                    <td>1</td>
+                    <td>2</td>
+
+
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>4</td>
                     <td>5</td>
+                    <td>1</td>
+                    <td>2</td>
+
+                </tr>
+
+                <tr>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>4</td>
+                    <td>5</td>
+                    <td>1</td>
+                    <td>2</td>
+
+
+                </tr>
+
+                <tr>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>4</td>
+                    <td>5</td>
+                    <td>1</td>
+                    <td class="data-active">2</td>
+
+
 
                 </tr>
 
@@ -178,10 +138,19 @@
                     <td>5</td>
                     <td class="data-active">1</td>
                     <td>2</td>
+
+
+                </tr>
+
+                <tr>
+                    <td>1</td>
+                    <td>2</td>
                     <td>3</td>
                     <td>4</td>
                     <td>5</td>
-                    <td>5</td>
+                    <td class="data-active">1</td>
+                    <td>2</td>
+
 
 
                 </tr>
@@ -194,10 +163,7 @@
                     <td>5</td>
                     <td>1</td>
                     <td>2</td>
-                    <td class="data-active">3</td>
-                    <td>4</td>
-                    <td>5</td>
-                    <td>5</td>
+
 
 
                 </tr>
@@ -209,10 +175,6 @@
                     <td>5</td>
                     <td>1</td>
                     <td class="data-active">2</td>
-                    <td>3</td>
-                    <td>4</td>
-                    <td>5</td>
-                    <td>5</td>
 
                 </tr>
 
@@ -224,86 +186,8 @@
                     <td>5</td>
                     <td>1</td>
                     <td class="data-active">2</td>
-                    <td>3</td>
-                    <td>4</td>
-                    <td>5</td>
-                    <td>5</td>
 
 
-                </tr>
-
-                <tr>
-                    <td>1</td>
-                    <td>2</td>
-                    <td class="data-active">3</td>
-                    <td>4</td>
-                    <td>5</td>
-                    <td>1</td>
-                    <td>2</td>
-                    <td>3</td>
-                    <td>4</td>
-                    <td>5</td>
-                    <td>5</td>
-
-
-                </tr>
-                <tr>
-                    <td>1</td>
-                    <td class="data-active">2</td>
-                    <td>3</td>
-                    <td>4</td>
-                    <td>5</td>
-                    <td>1</td>
-                    <td>2</td>
-                    <td>3</td>
-                    <td>4</td>
-                    <td>5</td>
-                    <td>5</td>
-
-                </tr>
-
-                <tr>
-                    <td>1</td>
-                    <td>2</td>
-                    <td>3</td>
-                    <td>4</td>
-                    <td>5</td>
-                    <td>1</td>
-                    <td>2</td>
-                    <td>3</td>
-                    <td>4</td>
-                    <td class="data-active">5</td>
-                    <td>5</td>
-
-
-                </tr>
-
-                <tr>
-                    <td>1</td>
-                    <td>2</td>
-                    <td>3</td>
-                    <td>4</td>
-                    <td>5</td>
-                    <td>1</td>
-                    <td class="data-active">2</td>
-                    <td>3</td>
-                    <td>4</td>
-                    <td>5</td>
-                    <td>5</td>
-
-                </tr>
-                <tr>
-                    <td>1</td>
-                    <td>2</td>
-                    <td>3</td>
-                    <td>4</td>
-                    <td>5</td>
-                    <td>1</td>
-                    <td>2</td>
-                    <td>3</td>
-                    <td>4</td>
-                    <td>5</td>
-                    <td>5</td>
 
                 </tr>
 
@@ -315,10 +199,63 @@
                     <td>5</td>
                     <td>1</td>
                     <td>2</td>
+
+
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td class="data-active">2</td>
                     <td>3</td>
                     <td>4</td>
                     <td>5</td>
+                    <td>1</td>
+                    <td>2</td>
+
+
+                </tr>
+
+                <tr>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>4</td>
                     <td>5</td>
+                    <td>1</td>
+                    <td>2</td>
+
+
+
+                </tr>
+
+                <tr>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>4</td>
+                    <td>5</td>
+                    <td>1</td>
+                    <td class="data-active">2</td>
+
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>4</td>
+                    <td>5</td>
+                    <td>1</td>
+                    <td>2</td>
+
+                </tr>
+
+                <tr>
+                    <td>1</td>
+                    <td>2</td>
+                    <td class="data-active">3</td>
+                    <td>4</td>
+                    <td>5</td>
+                    <td>1</td>
+                    <td>2</td>
 
 
                 </tr>
@@ -331,10 +268,7 @@
                     <td class="data-active">5</td>
                     <td>1</td>
                     <td>2</td>
-                    <td>3</td>
-                    <td>4</td>
-                    <td>5</td>
-                    <td>5</td>
+
 
 
                 </tr>
@@ -346,10 +280,6 @@
                     <td>5</td>
                     <td>1</td>
                     <td>2</td>
-                    <td>3</td>
-                    <td>4</td>
-                    <td>5</td>
-                    <td>5</td>
 
                 </tr>
 
@@ -361,10 +291,6 @@
                     <td>5</td>
                     <td>1</td>
                     <td>2</td>
-                    <td>3</td>
-                    <td>4</td>
-                    <td>5</td>
-                    <td>5</td>
 
 
                 </tr>
@@ -377,10 +303,6 @@
                     <td>5</td>
                     <td class="data-active">1</td>
                     <td>2</td>
-                    <td>3</td>
-                    <td>4</td>
-                    <td>5</td>
-                    <td>5</td>
 
 
                 </tr>
@@ -1759,7 +1681,7 @@
         background: rgba(255,223,215,0.74);
         border-top: 1px solid #FF8C94;
     }
-    
+
     .chinese{
         width: 18%
     }

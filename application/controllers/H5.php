@@ -91,4 +91,14 @@ class H5 extends CI_Controller
 
     }
 
+    public function game_record_pk_ten(){
+        $result['test'] = 'promotions';
+        $this->load->view('h5/record_pk_ten',$result);
+    }
+
+    public function game_record_fast_three(){
+        $result['test'] = 'promotions';
+        $this->load->view('h5/record_fast_three',$result);
+    }
+
 }
