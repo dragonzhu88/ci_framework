@@ -39,7 +39,6 @@ class GameRules_model extends CI_Model
             $data[$value->title][] = $value->content;
         }
 
-//        var_dump($result);
         $result['introduction'] = $introduction->content;
         $result['data'] = $data;
 
