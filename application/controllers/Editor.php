@@ -20,14 +20,42 @@ class Editor extends CI_Controller
         $this->load->view('editor/editor', $result);
     }
 
+    public function get_gid_list()
+    {
+        try {
+
+            $result = [];
+            $this->db->select('gid');
+            $this->db->distinct();
+//            $this->db->group_by("gid");
+            $query = $this->db->get('ht_game_rule');
+            $data = $query->result_array();
+
+            foreach ($data as $key => $value) {
+                $result[$key]['id'] =  $value['gid'];
+                $result[$key]['value'] = $value['gid'];
+            }
+
+            echo json_encode($result, JSON_UNESCAPED_UNICODE);
+
+        } catch (Exception $e) {
+            echo json_encode($e->getMessage(), JSON_UNESCAPED_UNICODE);
+            exit();
+        }
+    }
+
     public function get_user_data()
     {
         try {
-            $where = [
-                'gid' => 10,
-            ];
 
-            $this->db->where($where);
+            if(isset($_REQUEST['gid'])){
+                $where = [
+                    'gid' => $_REQUEST['gid'],
+                ];
+                $this->db->where($where);
+            }
+
+
             $query = $this->db->get('ht_game_rule');
             $data = $query->result_array();
 
@@ -36,7 +64,6 @@ class Editor extends CI_Controller
             echo json_encode($e->getMessage(), JSON_UNESCAPED_UNICODE);
             exit();
         }
-
 
     }
 
@@ -74,8 +101,9 @@ class Editor extends CI_Controller
         }
     }
 
-    public function update_game_data(){
-        try{
+    public function update_game_data()
+    {
+        try {
             $id = $_REQUEST['id'];
             $gid = $_REQUEST['gid'];
             $title = $_REQUEST['title'];
@@ -96,7 +124,7 @@ class Editor extends CI_Controller
             ];
             echo json_encode($result, JSON_UNESCAPED_UNICODE);
 
-        }catch (Exception $e){
+        } catch (Exception $e) {
             echo json_encode($e->getMessage(), JSON_UNESCAPED_UNICODE);
             exit();
         }
@@ -110,8 +138,8 @@ class Editor extends CI_Controller
                 'id' => $id,
             ];
 
-            if($id == null){
-                throw new Exception('id is null',101);
+            if ($id == null) {
+                throw new Exception('id is null', 101);
             }
 
             $this->db->where($where);
