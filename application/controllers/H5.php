@@ -17,38 +17,39 @@ class H5 extends CI_Controller
 
     public function every_color(){
 
-        $result = $this->GameRules_model->readData('every_color');
-        $this->load->view('h5/game_rule',$result);
+        $result = $this->GameRules_model->readData(1);
+
+//        $this->load->view('h5/game_rule',$result);
 
     }
 
     public function eleven_select_five(){
-        $result = $this->GameRules_model->readData('eleven_select_five');
+        $result = $this->GameRules_model->readData(2);
         $this->load->view('h5/game_rule',$result);
     }
 
     public function happy_ten_minutes(){
-        $result = $this->GameRules_model->readData('happy_ten_minutes');
+        $result = $this->GameRules_model->readData(3);
         $this->load->view('h5/game_rule',$result);
     }
 
     public function three_d_lottery(){
-        $result = $this->GameRules_model->readData('three_d_lottery');
+        $result = $this->GameRules_model->readData(4);
         $this->load->view('h5/game_rule',$result);
     }
 
     public function fast_three(){
-        $result = $this->GameRules_model->readData('fast_three');
+        $result = $this->GameRules_model->readData(5);
         $this->load->view('h5/game_rule',$result);
     }
 
     public function fast_eight(){
-        $result = $this->GameRules_model->readData('fast_eight');
+        $result = $this->GameRules_model->readData(6);
         $this->load->view('h5/game_rule',$result);
     }
 
     public function fast_ten(){
-        $result = $this->GameRules_model->readData('fast_ten');
+        $result = $this->GameRules_model->readData(7);
         $this->load->view('h5/game_rule',$result);
     }
 

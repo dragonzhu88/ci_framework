@@ -14,35 +14,45 @@ class GameRules_model extends CI_Model
         $this->load->database();
     }
 
-    public function readData($condition){
+    public function readData($gid)
+    {
 
-        $list = [];
-        $data = [];
-        $where = [
-            'en_name' => $condition,
+        try{
+            $list = [];
+            $data = [];
+            $where = [
+                'gid' => $gid,
 
-        ];
-        $this->db->where($where);
-        $query = $this->db->get('ht_game_rules');
+            ];
+            $this->db->where($where);
+            $query = $this->db->get('ht_game_rule');
 
 
-        foreach($query->result() as $row){
-            $list[] = $row;
+            foreach ($query->result() as $row) {
+                $list[] = $row;
+            }
+
+            $introduction = $list[0];
+
+            array_splice($list, 0, 1);
+
+
+            foreach ($list as $key => $value) {
+                $data[$value->title][] = $value->content;
+            }
+
+            $result['code'] = 200;
+            $result['msg'] = 'OK';
+            $result['data']['rows'] = $data;
+            $result['data']['introduction'] = $introduction->content;
+//            echo json_encode($result, JSON_UNESCAPED_UNICODE);
+            return $result;
+
+        }catch (Exception $e){
+            echo json_encode($e->getMessage(), JSON_UNESCAPED_UNICODE);
+            exit();
         }
 
-        $introduction = $list[0];
-
-        array_splice($list,0,1);
-
-
-        foreach ($list as $key => $value){
-            $data[$value->title][] = $value->content;
-        }
-
-        $result['introduction'] = $introduction->content;
-        $result['data'] = $data;
-
-        return $result;
     }
 
 }

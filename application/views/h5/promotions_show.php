@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>全网通营销管理后台-移动版</title>
     <link rel="stylesheet" type="text/css" href="static/js/layout/themes/bootstrap/easyui.css">
     <link rel="stylesheet" type="text/css" href="static/js/layout/themes/mobile.css">
     <link rel="stylesheet" type="text/css" href="static/js/layout/themes/icon.css">
@@ -336,10 +335,7 @@
     body{
         font-weight: 500;
         font-size: 1.05em;
-        /*font-family: "Microsoft YaHei","宋体","Segoe UI", "Lucida Grande", Helvetica, Arial,sans-serif, FreeSans, Arimo;*/
     }
-    /*a{color: #2fa0ec;text-decoration: none;outline: none;}*/
-    /*a:hover,a:focus{color:#74777b;}*/
 
     * {
         margin: 0;
@@ -352,9 +348,6 @@
 
     .accordion {
         margin: 10pt;
-        /*width: 380px;*/
-        /*background: #ccc;*/
-        /*cursor: pointer;*/
         border: none;
         background: #F5F5F9;
     }
